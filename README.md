@@ -14,10 +14,6 @@ Ghost Input demonstrates iOS Quick Actions (3D Touch or Haptic Touch) to open a 
 - When selected, the router navigates to `GhostInputView`.
 - Notes are persisted with `@AppStorage("quick_note")`.
 
-## Sample screenshot
-- Add a screenshot at `docs/quick-actions.png`.
-- Example: Home Screen Quick Actions menu showing "Quick Note".
-
 ## Troubleshooting Quick Actions
 - If the menu does not appear, make sure you are running on a real device (Quick Actions do not show on the simulator).
 - If the action does not show, relaunch the app after installing so `UIApplication.shared.shortcutItems` is set.
